@@ -10,4 +10,4 @@ RUN unzip 2133_moso_interior
 RUN cp -rvf 2133_moso_interior/* .
 RUN rm -rf 2133_moso_interior 2133_moso_interior
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80 22
+EXPOSE 80 
